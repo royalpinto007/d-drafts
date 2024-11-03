@@ -6,13 +6,13 @@ The test is expecting a SARIF JSON report, but the actual output is the default 
 
 The following command was used to run the SARIF test for the file `sarif_test.d`:
 
-```bash
+```
 rdmd run.d fail_compilation/sarif_test.d BUILD=debug --compiler-flags="--sarif"
 ```
 
 ## Expected Output
 
-```json
+```
 {
   "invocation": {
     "executionSuccessful": false
